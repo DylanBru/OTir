@@ -64,7 +64,8 @@ class UserType extends AbstractType
                 "label" => "Fonction au sein du Club",
                 "attr" => [
                     "placeholder" => "Président, Trésorier etc..."
-                ]
+                ],
+                'required'   => false
             ])
             ->add('courses', EntityType::class, [
                 'class' => Course::class,
